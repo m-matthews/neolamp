@@ -19,6 +19,7 @@ This project involves creating a simple WiFi [IoT](https://en.wikipedia.org/wiki
 | 1000 uF Capacitor, 6.3V or higher | 1 |
 | [Panel Mount Extension USB Cable - Micro B Male to Micro B Female](https://www.adafruit.com/product/3258) | 1 |
 | Basic Lamp with frosted glass suitable for hacking | 1 |
+
 `*` Note that the Arduino Board listed above can be replaced with any board that is compatable with `LOLIN(WEMOS) D1 R2 & mini` in the Arduino IDE.
 
 
@@ -28,7 +29,7 @@ This project involves creating a simple WiFi [IoT](https://en.wikipedia.org/wiki
 2) Install the [Panel Mount Extension USB Cable - Micro B Male to Micro B Female](https://www.adafruit.com/product/3258) where the power cable used to enter the base.
 3) Build the circuit below with suitable allowance in the wires to wrap around the post used for the bulb support.  Note that this follows the [NeoPixel Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 ![NeoLamp](./images/fritzing.png)
-4) Install the software in the `neolamp` folder using the Arduino IDE and test.
+4) Install the software in the [neolamp](./neolamp) folder using the Arduino IDE and test.
 5) Mount the Neopixels wrapped around the post used as the bulb support.
 6) Push the USB cable fully into the lamp before attaching to the main board.  The USB plug can be delicate and it can be safer to *pull* the device into the lamp rather than pushing it and bending/snapping the USB device.
 7) Test using the newly installed device with USB power into the base of the lamp!
